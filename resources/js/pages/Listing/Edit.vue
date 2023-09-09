@@ -95,7 +95,7 @@
             </div>
 
             <div class="row mt-5">
-                <input type="submit" value="Update" />
+                <input type="submit" value="Update" as="button" />
             </div>
         </form>
     </div>
