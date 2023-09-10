@@ -1,6 +1,6 @@
 <template>
     <div class="container">
-        <form @submit.prevent="create">
+        <form @submit.prevent="create" method="post">
             <div class="row">
                 <div class="col-25">
                     <label for="beds">Beds</label>
@@ -114,7 +114,7 @@ const form = useForm({
     price: 0,
 });
 const create = () => {
-    form.post("route('listing.store')");
+    form.post(route("listing.store"));
 };
 </script>
 <style scoped></style>
