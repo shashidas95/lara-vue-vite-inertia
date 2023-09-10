@@ -1,6 +1,6 @@
 <template>
     <div>Show page</div>
-    <Link href="/listing">Index</Link>
+    <Link href="route('listing.index')">Index</Link>
     <div>
         <ListingAddress :listing="listing" />
     </div>

@@ -1,8 +1,8 @@
 <?php
 
+use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\IndexController;
 use App\Http\Controllers\ListingController;
-use Illuminate\Support\Facades\Route;
 
 /*
 |--------------------------------------------------------------------------
