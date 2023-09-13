@@ -3,7 +3,9 @@
         class="border-b border-gray-200 bg-white dark:bg-gray-700 text-gray-800 dark:text-gray-300 w-full"
     >
         <div class="container mx-auto">
-            <nav class="p-4 flex items-center justify-between">
+            <nav
+                class="sticky top-0  bg-gradient-to-r from-indigo-500 to-rose-900 p-4 flex items-center justify-between"
+            >
                 <div
                     class="text-lg font-medium bg-indigo-800 hover:bg-indigo-500 dark:bg-indigo-600 text-white p-2 rounded-md"
                 >
