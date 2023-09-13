@@ -11,7 +11,7 @@
                         v-model.number="form.beds"
                     />
 
-                    <div v-if="form.errors.beds">
+                    <div v-if="form.errors.beds" class="input-error">
                         {{ form.errors.beds }}
                     </div>
                 </div>
@@ -24,7 +24,7 @@
                         class="input"
                         v-model.number="form.baths"
                     />
-                    <div v-if="form.errors.baths">
+                    <div v-if="form.errors.baths" class="input-error">
                         {{ form.errors.baths }}
                     </div>
                 </div>
@@ -37,7 +37,7 @@
                         class="input"
                         v-model.number="form.area"
                     />
-                    <div v-if="form.errors.area">
+                    <div v-if="form.errors.area" class="input-error">
                         {{ form.errors.area }}
                     </div>
                 </div>
@@ -50,7 +50,7 @@
                         class="input"
                         v-model.number="form.city"
                     />
-                    <div v-if="form.errors.city">
+                    <div v-if="form.errors.city" class="input-error">
                         {{ form.errors.city }}
                     </div>
                 </div>
@@ -62,7 +62,7 @@
                         class="input"
                         v-model.number="form.code"
                     />
-                    <div v-if="form.errors.code">
+                    <div v-if="form.errors.code" class="input-error">
                         {{ form.errors.code }}
                     </div>
                 </div>
@@ -74,7 +74,7 @@
                         class="input"
                         v-model.number="form.street"
                     />
-                    <div v-if="form.errors.street">
+                    <div v-if="form.errors.street" class="input-error">
                         {{ form.errors.street }}
                     </div>
                 </div>
@@ -86,7 +86,7 @@
                         class="input"
                         v-model.number="form.street_nr"
                     />
-                    <div v-if="form.errors.street_nr">
+                    <div v-if="form.errors.street_nr" class="input-error">
                         {{ form.errors.street_nr }}
                     </div>
                 </div>
@@ -98,7 +98,7 @@
                         class="input"
                         v-model.number="form.price"
                     />
-                    <div v-if="form.errors.price">
+                    <div v-if="form.errors.price" class="input-error">
                         {{ form.errors.price }}
                     </div>
                 </div>

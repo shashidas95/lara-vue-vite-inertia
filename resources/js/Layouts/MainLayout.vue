@@ -1,10 +1,10 @@
 <template>
-    <Header
+    <header
         class="border-b border-gray-200 bg-white dark:bg-gray-700 text-gray-800 dark:text-gray-300 w-full"
     >
-        <div class="container mx-auto">
+        <div class="mx-auto">
             <nav
-                class="sticky top-0 bg-gradient-to-r from-indigo-500 to-rose-900 p-4 flex items-center justify-between"
+                class="sticky top-0 bg-gradient-to-r from-indigo-500 to-rose-900 p-4 w-full flex items-center justify-between"
             >
                 <div class="btn-primary">
                     <Link :href="route('listing.index')"> All Listing </Link>
@@ -21,7 +21,7 @@
                 </div>
             </nav>
         </div>
-    </Header>
+    </header>
 
     <main class="container mx-auto p-4">
         <div
