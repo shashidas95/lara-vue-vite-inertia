@@ -1,0 +1,5 @@
+
+composer require tightenco/ziggy.
+(link: https://github.com/tighten/ziggy)
+ npm install @inertiajs/progress
+( link: https://github.com/inertiajs/progress)
