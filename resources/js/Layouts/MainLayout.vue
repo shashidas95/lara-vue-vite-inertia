@@ -4,23 +4,19 @@
     >
         <div class="container mx-auto">
             <nav
-                class="sticky top-0  bg-gradient-to-r from-indigo-500 to-rose-900 p-4 flex items-center justify-between"
+                class="sticky top-0 bg-gradient-to-r from-indigo-500 to-rose-900 p-4 flex items-center justify-between"
             >
-                <div
-                    class="text-lg font-medium bg-indigo-800 hover:bg-indigo-500 dark:bg-indigo-600 text-white p-2 rounded-md"
-                >
+                <div class="btn-primary">
                     <Link :href="route('listing.index')"> All Listing </Link>
                 </div>
                 <div
                     class="text-xl text-indigo-600 dark:text-indigo-300 font-medium text-center"
                 >
-                    <Link :href="route('listing.index')">
+                    <Link class="text-zinc-200" :href="route('listing.index')">
                         Laravel-Vue-Vite-Inertia
                     </Link>
                 </div>
-                <div
-                    class="text-lg font-medium bg-indigo-800 hover:bg-indigo-500 dark:bg-indigo-600 text-white p-2 rounded-md"
-                >
+                <div class="btn-primary">
                     <Link :href="route('listing.create')"> +New Listing </Link>
                 </div>
             </nav>
