@@ -3,3 +3,9 @@ composer require tightenco/ziggy.
 (link: https://github.com/tighten/ziggy)
  npm install @inertiajs/progress
 ( link: https://github.com/inertiajs/progress)
+
+Certainly, here's the formula for the monthly payment of a fixed-rate loan without using fraction notation:
+
+M = (P * r * (Math.pow(1 + r, n))) / (Math.pow(1 + r, n) - 1)
+
+
